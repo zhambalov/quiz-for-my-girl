@@ -7,17 +7,19 @@ div{
 }
 
 button {
-    display: flexbox;
-    width: 120px;
-    padding: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #f0f0f0;
-    color: #000;
-    cursor: pointer;
-  }
+  display: flexbox;
+  flex-direction: row;
+  width: 25%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #000;
+  cursor: pointer;
+}
+
   
   button:hover {
     background-color: #e0e0e0;
